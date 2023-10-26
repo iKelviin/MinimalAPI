@@ -91,3 +91,4 @@ C:\Users\kelvin.rocha\Documents\Kelvin\C#\MinimalAPI-CatalogoAPI\MinimalAPI-Cata
 C:\Users\kelvin.rocha\Documents\Kelvin\C#\MinimalAPI-CatalogoAPI\MinimalAPI-CatalogoAPI\obj\Debug\net6.0\MinimalAPI-CatalogoAPI.pdb
 C:\Users\kelvin.rocha\Documents\Kelvin\C#\MinimalAPI-CatalogoAPI\MinimalAPI-CatalogoAPI\obj\Debug\net6.0\MinimalAPI-CatalogoAPI.genruntimeconfig.cache
 C:\Users\kelvin.rocha\Documents\Kelvin\C#\MinimalAPI-CatalogoAPI\MinimalAPI-CatalogoAPI\obj\Debug\net6.0\ref\MinimalAPI-CatalogoAPI.dll
+C:\Users\kelvin.rocha\Documents\Kelvin\C#\MinimalAPI-CatalogoAPI\MinimalAPI-CatalogoAPI\obj\Debug\net6.0\MinimalAPI-CatalogoAPI.sourcelink.json
