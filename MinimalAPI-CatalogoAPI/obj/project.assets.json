@@ -3386,23 +3386,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kelvin.rocha\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Kelvin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kelvin.rocha\\Documents\\Kelvin\\C#\\MinimalAPI-CatalogoAPI\\MinimalAPI-CatalogoAPI\\MinimalAPI-CatalogoAPI.csproj",
+      "projectUniqueName": "T:\\Projetos\\Projects\\MinimalAPI\\MinimalAPI-CatalogoAPI\\MinimalAPI-CatalogoAPI.csproj",
       "projectName": "MinimalAPI-CatalogoAPI",
-      "projectPath": "C:\\Users\\kelvin.rocha\\Documents\\Kelvin\\C#\\MinimalAPI-CatalogoAPI\\MinimalAPI-CatalogoAPI\\MinimalAPI-CatalogoAPI.csproj",
-      "packagesPath": "C:\\Users\\kelvin.rocha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kelvin.rocha\\Documents\\Kelvin\\C#\\MinimalAPI-CatalogoAPI\\MinimalAPI-CatalogoAPI\\obj\\",
+      "projectPath": "T:\\Projetos\\Projects\\MinimalAPI\\MinimalAPI-CatalogoAPI\\MinimalAPI-CatalogoAPI.csproj",
+      "packagesPath": "C:\\Users\\Kelvin\\.nuget\\packages\\",
+      "outputPath": "T:\\Projetos\\Projects\\MinimalAPI\\MinimalAPI-CatalogoAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kelvin.rocha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kelvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3462,24 +3463,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.23, 6.0.23]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.23, 6.0.23]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.23, 6.0.23]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.23, 6.0.23]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3488,7 +3471,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
