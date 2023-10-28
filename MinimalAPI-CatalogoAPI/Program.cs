@@ -103,13 +103,15 @@ app.MapPut("/produtos/{id:int}", async (int id, Produto produto, AppDbContext db
 
     if(produtoDB is null) return Results.NotFound();
 
-    produtoDB.Nome = produto.Nome;
-    produtoDB.Descricao = produto.Descricao;
-    produtoDB.Preco = produto.Preco;
-    produtoDB.Estoque = produto.Estoque;
-    produtoDB.DataCompra = produto.DataCompra;
-    produtoDB.Imageml = produto.Imageml;
-    produtoDB.CategoriaId = produto.CategoriaId;
+    //produtoDB.Nome = produto.Nome;
+    //produtoDB.Descricao = produto.Descricao;
+    //produtoDB.Preco = produto.Preco;
+    //produtoDB.Estoque = produto.Estoque;
+    //produtoDB.DataCompra = produto.DataCompra;
+    //produtoDB.Imageml = produto.Imageml;
+    //produtoDB.CategoriaId = produto.CategoriaId;
+
+    db.Entry(produto).State = EntityState.Modified;
 
     await db.SaveChangesAsync();
     return Results.Ok(produtoDB);
